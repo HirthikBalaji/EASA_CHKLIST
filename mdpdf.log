@@ -1,0 +1,81 @@
+    INFO: 2024-07-03 09:38:48,894:               log.py:   20: Logging to /Users/hirthik/Desktop/EASA_CHKLIST/mdpdf.log
+   DEBUG: 2024-07-03 09:38:48,894:               cli.py:  103: ./CHECKLISTS/Objective LM-10.md
+    INFO: 2024-07-03 09:38:48,895:         converter.py:   14: ./CHECKLISTS/Objective LM-10.md
+   DEBUG: 2024-07-03 09:38:48,897:      pdf_renderer.py:  470: printSegment: Identity and Purpose Checklist
+   DEBUG: 2024-07-03 09:38:48,899:      pdf_renderer.py:  470: printSegment: Data Management (3.1.3)
+   DEBUG: 2024-07-03 09:38:48,901:      pdf_renderer.py:  470: printSegment: | Requirement | Yes/No |
+   DEBUG: 2024-07-03 09:38:48,903:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2024-07-03 09:38:48,904:      pdf_renderer.py:  470: printSegment: | --- | --- |
+   DEBUG: 2024-07-03 09:38:48,904:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2024-07-03 09:38:48,906:      pdf_renderer.py:  470: printSegment: | Data management process captures objectives for individual data points and data
+   DEBUG: 2024-07-03 09:38:48,906:      pdf_renderer.py:  470: printSegment: sets | ❌ |
+   DEBUG: 2024-07-03 09:38:48,915:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2024-07-03 09:38:48,916:      pdf_renderer.py:  470: printSegment: | Data collection is performed to gather required data sets | ❌ |
+   DEBUG: 2024-07-03 09:38:48,916:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2024-07-03 09:38:48,917:      pdf_renderer.py:  470: printSegment: | Data labelling is done for supervised learning
+   DEBUG: 2024-07-03 09:38:48,918:      pdf_renderer.py:  470: printSegment: only (if applicable) | ❌ |
+   DEBUG: 2024-07-03 09:38:48,918:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2024-07-03 09:38:48,919:      pdf_renderer.py:  470: printSegment: | Data preparation (pre-processing, transformation, feature engineering) is conducted | ❌ |
+   DEBUG: 2024-07-03 09:38:48,919:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2024-07-03 09:38:48,921:      pdf_renderer.py:  470: printSegment: |
+   DEBUG: 2024-07-03 09:38:48,921:      pdf_renderer.py:  470: printSegment: Identification of training, validation, and test data sets is done | ❌ |
+   DEBUG: 2024-07-03 09:38:48,922:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2024-07-03 09:38:48,923:      pdf_renderer.py:  470: printSegment: | Data set verification (accuracy, completeness,
+   DEBUG: 2024-07-03 09:38:48,923:      pdf_renderer.py:  470: printSegment: representativeness) is performed | ❌ |
+   DEBUG: 2024-07-03 09:38:48,924:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2024-07-03 09:38:48,924:      pdf_renderer.py:  470: printSegment: | Independence requirements between data sets are identified and verified | ❌ |
+   DEBUG: 2024-07-03 09:38:48,925:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2024-07-03 09:38:48,926:      pdf_renderer.py:  470: printSegment: |
+   DEBUG: 2024-07-03 09:38:48,927:      pdf_renderer.py:  470: printSegment: Unwanted bias in data sets is identified and eliminated | ❌ |
+   DEBUG: 2024-07-03 09:38:48,927:      pdf_renderer.py:  470: printSegment: Trained Model Verification (LM-16)
+   DEBUG: 2024-07-03 09:38:48,928:      pdf_renderer.py:  470: printSegment: | Requirement | Yes/No |
+   DEBUG: 2024-07-03 09:38:48,928:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2024-07-03 09:38:48,928:      pdf_renderer.py:  470: printSegment: | --- | --- |
+   DEBUG: 2024-07-03 09:38:48,929:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2024-07-03 09:38:48,929:      pdf_renderer.py:  470: printSegment: | Correctness of requirements-based verification procedures is verified | ❌ |
+   DEBUG: 2024-07-03 09:38:48,930:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2024-07-03 09:38:48,931:      pdf_renderer.py:  470: printSegment: |
+   DEBUG: 2024-07-03 09:38:48,932:      pdf_renderer.py:  470: printSegment: Correctness of requirements-based verification results with justification of discrepancies is verified | ❌ |
+   DEBUG: 2024-07-03 09:38:48,933:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2024-07-03 09:38:48,934:      pdf_renderer.py:  470: printSegment: | Coverage of
+   DEBUG: 2024-07-03 09:38:48,935:      pdf_renderer.py:  470: printSegment: AI/ML constituent requirements by verification methods is verified | ❌ |
+   DEBUG: 2024-07-03 09:38:48,935:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2024-07-03 09:38:48,937:      pdf_renderer.py:  470: printSegment: | Evaluation of trained model performance
+   DEBUG: 2024-07-03 09:38:48,938:      pdf_renderer.py:  470: printSegment: with coverage of all pairs of ODD parameters is performed | ❌ |
+   DEBUG: 2024-07-03 09:38:48,938:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2024-07-03 09:38:48,940:      pdf_renderer.py:  470: printSegment: | Whole AI/ML constituent ODD is evaluated for
+   DEBUG: 2024-07-03 09:38:48,940:      pdf_renderer.py:  470: printSegment: stability of the trained model | ❌ |
+   DEBUG: 2024-07-03 09:38:48,941:      pdf_renderer.py:  470: printSegment: AI/ML Constituent Verification (IMP-12)
+   DEBUG: 2024-07-03 09:38:48,941:      pdf_renderer.py:  470: printSegment: | Requirement | Yes/No |
+   DEBUG: 2024-07-03 09:38:48,942:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2024-07-03 09:38:48,942:      pdf_renderer.py:  470: printSegment: | --- | --- |
+   DEBUG: 2024-07-03 09:38:48,943:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2024-07-03 09:38:48,943:      pdf_renderer.py:  470: printSegment: | Correctness of requirements-based verification procedures is verified | ❌ |
+   DEBUG: 2024-07-03 09:38:48,944:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2024-07-03 09:38:48,946:      pdf_renderer.py:  470: printSegment: |
+   DEBUG: 2024-07-03 09:38:48,947:      pdf_renderer.py:  470: printSegment: Correctness of requirements-based verification results with justification of discrepancies is verified | ❌ |
+   DEBUG: 2024-07-03 09:38:48,947:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2024-07-03 09:38:48,949:      pdf_renderer.py:  470: printSegment: | Coverage of
+   DEBUG: 2024-07-03 09:38:48,949:      pdf_renderer.py:  470: printSegment: AI/ML constituent requirements by verification methods is verified | ❌ |
+   DEBUG: 2024-07-03 09:38:48,950:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2024-07-03 09:38:48,952:      pdf_renderer.py:  470: printSegment: | Evaluation of AI/ML constituent
+   DEBUG: 2024-07-03 09:38:48,953:      pdf_renderer.py:  470: printSegment: performance with coverage of all pairs of ODD parameters is performed | ❌ |
+   DEBUG: 2024-07-03 09:38:48,954:      pdf_renderer.py:  470: printSegment: Requirements Verification (DA-10)
+   DEBUG: 2024-07-03 09:38:48,954:      pdf_renderer.py:  470: printSegment: | Requirement | Yes/No |
+   DEBUG: 2024-07-03 09:38:48,955:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2024-07-03 09:38:48,955:      pdf_renderer.py:  470: printSegment: | --- | --- |
+   DEBUG: 2024-07-03 09:38:48,956:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2024-07-03 09:38:48,956:      pdf_renderer.py:  470: printSegment: | Each captured AI/ML constituent requirement is verified | ❌ |
+   DEBUG: 2024-07-03 09:38:48,957:      pdf_renderer.py:  470: printSegment: Note: The ❌ symbol indicates that the requirement has not been met.
+   DEBUG: 2024-07-03 09:38:48,957:      pdf_renderer.py:   53: 0, [3, 'Data Management (3.1.3)', 1, 104.4]
+   DEBUG: 2024-07-03 09:38:48,957:      pdf_renderer.py:   53: 1, [3, 'Trained Model Verification (LM-16)', 1, 211.20000000000002]
+   DEBUG: 2024-07-03 09:38:48,957:      pdf_renderer.py:   53: 2, [3, 'AI/ML Constituent Verification (IMP-12)', 1, 306.0]
+   DEBUG: 2024-07-03 09:38:48,957:      pdf_renderer.py:   53: 3, [3, 'Requirements Verification (DA-10)', 1, 388.79999999999995]
+   ERROR: 2024-07-03 09:38:48,957:      pdf_renderer.py:   57: Bad heading level.  More information:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/tortoise/lib/python3.9/site-packages/mdpdf/pdf_renderer.py", line 55, in __del__
+    self.doc.set_toc(self.toc)
+  File "/opt/anaconda3/envs/tortoise/lib/python3.9/site-packages/pymupdf/utils.py", line 1346, in set_toc
+    raise ValueError("hierarchy level of item 0 must be 1")
+ValueError: hierarchy level of item 0 must be 1
+    INFO: 2024-07-03 09:38:48,958:      pdf_renderer.py:   59: [3, 'Trained Model Verification (LM-16)', 1, 211.20000000000002]
